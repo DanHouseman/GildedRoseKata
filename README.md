@@ -2,11 +2,11 @@
 
 The provided code implements the Gilded Rose inventory management system, which handles the quality and sell-in days of various items. The design patterns, principles, and methodologies employed in this code:
 
-Design Patterns:
-	1.	Strategy Pattern:
-	•	The code utilizes a strategy pattern through the IItemUpdater interface and its implementations (RegularItemUpdater, AgedBrieUpdater, BackstagePassUpdater, ConjuredItemUpdater, SulfurasItemUpdater). Each item type has its updater strategy, allowing flexibility in extending and modifying the behavior of different item categories.
-	2.	Factory Pattern:
-	•	The ItemUpdaterFactory serves as a simple factory pattern, encapsulating the logic for creating the appropriate IItemUpdater based on the item’s name. This centralizes the decision-making process for choosing the correct updater strategy.
+### Design Patterns:
+	#### 1.	Strategy Pattern:
+	-	The code utilizes a strategy pattern through the IItemUpdater interface and its implementations (RegularItemUpdater, AgedBrieUpdater, BackstagePassUpdater, ConjuredItemUpdater, SulfurasItemUpdater). Each item type has its updater strategy, allowing flexibility in extending and modifying the behavior of different item categories.
+	#### 2.	Factory Pattern:
+	-	The ItemUpdaterFactory serves as a simple factory pattern, encapsulating the logic for creating the appropriate IItemUpdater based on the item’s name. This centralizes the decision-making process for choosing the correct updater strategy.
 
 Principles:
 	1.	SOLID Principles:
