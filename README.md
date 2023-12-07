@@ -11,13 +11,13 @@ The provided code implements the Gilded Rose inventory management system, which 
 ### Principles:
 1.	SOLID Principles:
 -	Single Responsibility Principle (SRP):
--	Each class has a single responsibility, such as updating the quality of a specific item type.
+    -	Each class has a single responsibility, such as updating the quality of a specific item type.
 -	Open/Closed Principle (OCP):
--	The code is open for extension, allowing for the addition of new item types without modifying existing code (evident in the use of strategy pattern and factory pattern).
+    -	The code is open for extension, allowing for the addition of new item types without modifying existing code (evident in the use of strategy pattern and factory pattern).
 -	Liskov Substitution Principle (LSP):
--	The IItemUpdater interface ensures that each concrete updater can be substituted for one another.
+    -	The IItemUpdater interface ensures that each concrete updater can be substituted for one another.
 -	Interface Segregation Principle (ISP):
--	Interfaces (IItemUpdater) are tailored to the needs of specific item types, avoiding unnecessary methods in implementing classes.
+    -	Interfaces (IItemUpdater) are tailored to the needs of specific item types, avoiding unnecessary methods in implementing classes.
 
 ### Methodologies:
 1.	DRY (Don’t Repeat Yourself):
